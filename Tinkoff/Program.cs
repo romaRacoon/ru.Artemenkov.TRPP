@@ -27,6 +27,7 @@ namespace Tinkoff
             while (isWork)
             {
                 Console.WriteLine("1 - Вывести колво книг\n2-Добавить книгу\n3-Удалить книгу\n4-Выйти");
+                enterValue = Console.ReadLine();
 
                 if (int.TryParse(enterValue, out value))
                 {
